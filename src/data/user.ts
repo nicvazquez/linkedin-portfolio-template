@@ -30,4 +30,8 @@ My interest is in collaborating in innovative projects, working together with un
 		"Craft CMS",
 		"Strapi CMS",
 	],
+	links: [
+		"https://github.com/nicvazquez",
+		"https://linkedin.com/in/nicvazquez",
+	],
 };

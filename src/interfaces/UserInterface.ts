@@ -4,4 +4,5 @@ export interface UserInterface {
 	role: string;
 	about: string;
 	skills: string[];
+	links: string[];
 }
