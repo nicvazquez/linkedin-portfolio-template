@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 :root {
+	--primary: #70b5f9;
 	--color-background-container: #1d2226;
 }
 
@@ -24,7 +25,7 @@ article {
 }
 
 a {
-	color: inherit;
+	color: var(--primary);
 	text-decoration: none;
 }
 

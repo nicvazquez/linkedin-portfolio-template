@@ -1,4 +1,7 @@
-import { Post } from "@/components/Post/Post";
+import { About } from "@/components/Sections/About";
+import { Links } from "@/components/Sections/Links";
+import { Skills } from "@/components/Sections/Skills";
+import { WorkExperience } from "@/components/Sections/WorkExperience";
 import Head from "next/head";
 
 export default function Home() {
@@ -11,7 +14,14 @@ export default function Home() {
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
 
-			<Post />
+			<main>
+				<section>
+					<About />
+					<WorkExperience />
+					<Skills />
+					<Links />
+				</section>
+			</main>
 		</>
 	);
 }
