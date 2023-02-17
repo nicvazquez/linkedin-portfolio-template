@@ -1,7 +1,7 @@
-import { About } from "@/components/About";
-import { WorkExperience } from "@/components/WorkExperience";
-import { Links } from "@/components/Links";
-import { Skills } from "@/components/Skills";
+import { About } from "@/components/Sections/About";
+import { Links } from "@/components/Sections/Links";
+import { Skills } from "@/components/Sections/Skills";
+import { WorkExperience } from "@/components/Sections/WorkExperience";
 import Head from "next/head";
 
 export default function Home() {

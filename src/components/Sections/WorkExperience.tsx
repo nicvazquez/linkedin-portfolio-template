@@ -1,6 +1,6 @@
 import { user } from "@/data/user";
 import React from "react";
-import { Post } from "./Post/Post";
+import { Post } from "../Post/Post";
 
 export const WorkExperience = () => {
 	return (

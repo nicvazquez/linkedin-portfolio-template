@@ -1,5 +1,5 @@
 import { user } from "@/data/user";
-import { Post } from "./Post/Post";
+import { Post } from "../Post/Post";
 
 export const Skills = () => {
 	return (
