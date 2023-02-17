@@ -3,4 +3,5 @@ export interface UserInterface {
 	avatar: string;
 	role: string;
 	about: string;
+	skills: string[];
 }
