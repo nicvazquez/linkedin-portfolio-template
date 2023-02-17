@@ -1,3 +1,10 @@
+interface WorkExperience {
+	role: string;
+	company: string;
+	date: string;
+	type: string;
+}
+
 export interface UserInterface {
 	name: string;
 	avatar: string;
@@ -5,4 +12,5 @@ export interface UserInterface {
 	about: string;
 	skills: string[];
 	links: string[];
+	workExperience: WorkExperience[];
 }

@@ -1,4 +1,5 @@
 import { About } from "@/components/About";
+import { WorkExperience } from "@/components/WorkExperience";
 import { Links } from "@/components/Links";
 import { Skills } from "@/components/Skills";
 import Head from "next/head";
@@ -16,6 +17,7 @@ export default function Home() {
 			<main>
 				<section>
 					<About />
+					<WorkExperience />
 					<Skills />
 					<Links />
 				</section>

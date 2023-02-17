@@ -12,7 +12,9 @@ export const Post = ({ children, title }: Props) => {
 			<PostHeader />
 
 			<div className="text-sm text-gray-200 whitespace-pre-wrap inline">
-				<p className="mb-2">{title}</p>
+				<p className="mb-2">
+					<strong>{title}</strong>
+				</p>
 
 				{children}
 			</div>
