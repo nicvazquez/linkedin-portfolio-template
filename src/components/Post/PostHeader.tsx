@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export const PostHeader = () => {
 	return (
-		<div className="flex items-center">
+		<div className="flex items-center mb-2">
 			<Image
 				className="rounded-full"
 				src={user.avatar}
