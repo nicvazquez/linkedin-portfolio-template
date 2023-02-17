@@ -8,7 +8,7 @@ interface Props {
 
 export const Post = ({ children, title }: Props) => {
 	return (
-		<article className="mb-2 p-4 rounded relative md:w-1/3">
+		<article className="background-container mb-2 p-4 rounded relative md:w-1/3">
 			<PostHeader />
 
 			<div className="text-sm text-gray-200 whitespace-pre-wrap inline">

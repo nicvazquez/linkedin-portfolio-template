@@ -21,8 +21,7 @@ body {
 	overflow-x: hidden;
 }
 
-article,
-header {
+.background-container {
 	background-color: var(--color-background-container);
 }
 
@@ -33,6 +32,9 @@ input {
 a {
 	color: var(--primary);
 	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
 }
 
 @media (prefers-color-scheme: dark) {

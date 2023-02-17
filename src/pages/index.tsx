@@ -1,3 +1,4 @@
+import { Aside } from "@/components/Aside/Aside";
 import { Header } from "@/components/Header";
 import { About } from "@/components/Sections/About";
 import { Links } from "@/components/Sections/Links";
@@ -16,6 +17,8 @@ export default function Home() {
 			</Head>
 
 			<Header />
+
+			<Aside />
 
 			<main>
 				<section>
