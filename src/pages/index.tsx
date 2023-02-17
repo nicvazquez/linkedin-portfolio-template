@@ -1,3 +1,4 @@
+import { Aside } from "@/components/Aside/Aside";
 import { Header } from "@/components/Header";
 import { About } from "@/components/Sections/About";
 import { Links } from "@/components/Sections/Links";
@@ -17,19 +18,21 @@ export default function Home() {
 
 			<Header />
 
+			<Aside />
+
 			<main>
 				<section>
 					<ul>
-						<li>
+						<li className="md:grid md:place-items-center">
 							<About />
 						</li>
-						<li>
+						<li className="md:grid md:place-items-center">
 							<WorkExperience />
 						</li>
-						<li>
+						<li className="md:grid md:place-items-center">
 							<Skills />
 						</li>
-						<li>
+						<li className="md:grid md:place-items-center">
 							<Links />
 						</li>
 					</ul>

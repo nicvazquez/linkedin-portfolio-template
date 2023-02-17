@@ -12,7 +12,7 @@ const Button = ({ children }: { children: JSX.Element | JSX.Element[] }) => {
 
 export const PostFooter = () => {
 	return (
-		<div className="text-sm font-medium flex justify-between items-center border-solid border-t-2 border-b-2 border-white border-opacity-10 absolute bottom-1 right-0 left-0 py-2 px-4">
+		<div className="text-sm font-medium flex justify-between items-center border-solid border-t-2 border-b-2 md:border-b-0 border-white border-opacity-10 absolute bottom-1 right-0 left-0 md:left-4 md:right-4 py-2 px-4">
 			<Button>
 				<FaRegThumbsUp />
 				<span>Recommend</span>
