@@ -5,6 +5,7 @@
 :root {
 	--primary: #70b5f9;
 	--color-background-container: #1d2226;
+	--input-bg: #38434f;
 }
 
 * {
@@ -20,8 +21,13 @@ body {
 	overflow-x: hidden;
 }
 
-article {
+article,
+header {
 	background-color: var(--color-background-container);
+}
+
+input {
+	background-color: var(--input-bg);
 }
 
 a {

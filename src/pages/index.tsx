@@ -1,3 +1,4 @@
+import { Header } from "@/components/Header";
 import { About } from "@/components/Sections/About";
 import { Links } from "@/components/Sections/Links";
 import { Skills } from "@/components/Sections/Skills";
@@ -14,12 +15,24 @@ export default function Home() {
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
 
+			<Header />
+
 			<main>
 				<section>
-					<About />
-					<WorkExperience />
-					<Skills />
-					<Links />
+					<ul>
+						<li>
+							<About />
+						</li>
+						<li>
+							<WorkExperience />
+						</li>
+						<li>
+							<Skills />
+						</li>
+						<li>
+							<Links />
+						</li>
+					</ul>
 				</section>
 			</main>
 		</>
