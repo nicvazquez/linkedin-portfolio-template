@@ -3,7 +3,7 @@ import { FaCommentDots, FaSearch } from "react-icons/fa";
 
 export const Header = () => {
 	return (
-		<header className="py-2 flex justify-around items-center border-b-2 border-white border-opacity-10">
+		<header className="py-2 flex justify-around items-center border-b-2 border-white border-opacity-10 md:mb-6 md:justify-center md:gap-6">
 			<div
 				className="rounded-full bg-gray-300 bg-opacity-10 grid place-items-center"
 				style={{ width: "35px", height: "35px" }}

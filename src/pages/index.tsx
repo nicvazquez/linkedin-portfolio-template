@@ -20,16 +20,16 @@ export default function Home() {
 			<main>
 				<section>
 					<ul>
-						<li>
+						<li className="md:grid md:place-items-center">
 							<About />
 						</li>
-						<li>
+						<li className="md:grid md:place-items-center">
 							<WorkExperience />
 						</li>
-						<li>
+						<li className="md:grid md:place-items-center">
 							<Skills />
 						</li>
-						<li>
+						<li className="md:grid md:place-items-center">
 							<Links />
 						</li>
 					</ul>
