@@ -12,5 +12,5 @@ export interface UserInterface {
 	about: string;
 	skills: string[];
 	links: string[];
-	workExperience: WorkExperience[];
+	workExperience: WorkExperience[] | null;
 }

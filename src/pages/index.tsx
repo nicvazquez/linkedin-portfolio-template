@@ -4,6 +4,7 @@ import { About } from "@/components/Sections/About";
 import { Links } from "@/components/Sections/Links";
 import { Skills } from "@/components/Sections/Skills";
 import { WorkExperience } from "@/components/Sections/WorkExperience";
+import { user } from "@/data/user";
 import Head from "next/head";
 
 export default function Home() {
@@ -18,7 +19,7 @@ export default function Home() {
 
 			<Header />
 
-			<Aside />
+			{/* <Aside /> */}
 
 			<main>
 				<section>
@@ -27,7 +28,7 @@ export default function Home() {
 							<About />
 						</li>
 						<li className="md:grid md:place-items-center">
-							<WorkExperience />
+							{user.workExperience && <WorkExperience />}
 						</li>
 						<li className="md:grid md:place-items-center">
 							<Skills />
