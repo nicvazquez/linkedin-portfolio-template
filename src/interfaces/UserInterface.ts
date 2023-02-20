@@ -5,6 +5,13 @@ interface WorkExperience {
 	type: string;
 }
 
+interface Education {
+	institute: string;
+	title: string;
+	date: string;
+	description: string;
+}
+
 export interface UserInterface {
 	name: string;
 	avatar: string;
@@ -13,4 +20,5 @@ export interface UserInterface {
 	skills: string[];
 	links: string[];
 	workExperience: WorkExperience[] | null;
+	education: Education[] | null;
 }

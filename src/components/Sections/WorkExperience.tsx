@@ -6,7 +6,7 @@ export const WorkExperience = () => {
 	return (
 		<Post title="Work experience:">
 			<ul>
-				{user.workExperience.map((exp) => (
+				{user.workExperience?.map((exp) => (
 					<li key={exp.company}>
 						<div className="mb-4">
 							<p>{exp.role}</p>

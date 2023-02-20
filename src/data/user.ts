@@ -50,6 +50,22 @@ My interest is in collaborating in innovative projects, working together with un
 		"Craft CMS",
 		"Strapi CMS",
 	],
+	education: [
+		{
+			institute: "Instituto Nuestra Señora de la Unidad",
+			title: "Bachelor's Degree in Computer Science",
+			date: "2015 - 2020",
+			description:
+				"Education at my high school, where I took my first steps in programming with the C++ language",
+		},
+		{
+			institute: "St. Michael's of English Culture",
+			title: "English as a foreing language",
+			date: "2012 - 2021",
+			description:
+				"English institute where I learned to speak this language fluently",
+		},
+	],
 	links: [
 		"https://github.com/nicvazquez",
 		"https://linkedin.com/in/nicvazquez",
