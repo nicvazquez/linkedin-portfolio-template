@@ -10,9 +10,8 @@ export const Education = () => {
 						<div className="mb-4">
 							<p>{exp.title}</p>
 
-							<p>
-								{exp.institute} ·
-								<span className="text-gray-300"> {exp.date}</span>
+							<p className="text-gray-300">
+								{exp.institute} · {exp.date}
 							</p>
 
 							<p className="text-gray-300">{exp.description}</p>
