@@ -19,7 +19,7 @@ export const Post = ({ children, title }: Props) => {
 				{children}
 			</div>
 
-			<div className="my-12"></div>
+			<div className="my-16 md:my-14"></div>
 			<PostFooter />
 		</article>
 	);
