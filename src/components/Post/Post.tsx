@@ -8,7 +8,7 @@ interface Props {
 
 export const Post = ({ children, title }: Props) => {
 	return (
-		<article className="background-container mb-2 p-4 rounded relative md:w-1/3">
+		<article className="background-container mb-2 p-4 rounded relative w-full">
 			<PostHeader />
 
 			<div className="text-sm text-gray-200 whitespace-pre-wrap inline">
@@ -19,7 +19,7 @@ export const Post = ({ children, title }: Props) => {
 				{children}
 			</div>
 
-			<div className="my-16 md:my-14"></div>
+			<div className="my-16"></div>
 			<PostFooter />
 		</article>
 	);
