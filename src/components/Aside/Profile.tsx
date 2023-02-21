@@ -7,7 +7,7 @@ export const Profile = () => {
 		return convertedWord.charAt(0).toUpperCase() + convertedWord.slice(1);
 	};
 	return (
-		<div className="text-sm rounded md:px-4 xxl:px-10 pb-4 h-1/6 flex flex-col items-center justify-center">
+		<div className="text-sm flex flex-col items-center justify-center">
 			<Image
 				className="rounded-full mb-4"
 				src={user.avatar}
