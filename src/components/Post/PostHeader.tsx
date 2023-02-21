@@ -1,16 +1,10 @@
 import { user } from "@/data/user";
-import Image from "next/image";
+import { Avatar } from "../layout/Avatar";
 
 export const PostHeader = () => {
 	return (
 		<div className="flex items-center mb-4">
-			<Image
-				className="rounded-full"
-				src={user.avatar}
-				width={50}
-				height={50}
-				alt={`${user.name} profile picture`}
-			/>
+			<Avatar src={user.avatar} alt={`${user.name} profile picture`} />
 			<div className="ml-2 truncate">
 				<p className="text-sm">{user.name}</p>
 				<p className="text-xs text-gray-300 truncate">{user.role}</p>

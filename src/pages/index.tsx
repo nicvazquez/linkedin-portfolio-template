@@ -1,4 +1,5 @@
-import { Aside } from "@/components/Aside/Aside";
+import { AsideLeft } from "@/components/Aside/AsideLeft";
+import { AsideRight } from "@/components/Aside/AsideRight";
 import { Header } from "@/components/Header";
 import { About } from "@/components/Sections/About";
 import { Education } from "@/components/Sections/Education";
@@ -17,7 +18,7 @@ export default function Home() {
 			<Header />
 
 			<div className="flex items-start justify-center gap-4">
-				<Aside />
+				<AsideLeft />
 
 				<main className="md:flex md:flex-col md:items-center md:justify-center md:w-2/5 2xl:w-1/3">
 					<StartPost />
@@ -44,6 +45,8 @@ export default function Home() {
 						</ul>
 					</section>
 				</main>
+
+				<AsideRight />
 			</div>
 		</>
 	);
