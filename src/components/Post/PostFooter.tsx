@@ -4,22 +4,11 @@ import {
 	FaRetweet,
 	FaShare,
 } from "react-icons/fa";
-
-interface ButtonProps {
-	children: JSX.Element | JSX.Element[];
-}
-
-const Button = ({ children }: ButtonProps) => {
-	return (
-		<button className="text-gray-300 flex items-center gap-1 flex flex-col md:flex-row md:gap-2">
-			{children}
-		</button>
-	);
-};
+import { Button } from "../layout/Buttons";
 
 export const PostFooter = () => {
 	return (
-		<div className="text-sm font-medium flex justify-between items-center border-solid border-t-2 border-b-2 md:border-b-0 border-white border-opacity-10 absolute right-0 bottom-1 left-0 md:left-4 md:right-4 py-2 px-4">
+		<div className="text-sm font-medium flex justify-between items-center border-solid border-t-2 border-b-2 md:border-b-0 border-white border-opacity-10 absolute right-0 bottom-1 left-0 md:left-4 md:right-4 py-2 px-4 md:py-1 md:px-0">
 			<Button>
 				<FaRegThumbsUp size={15} />
 				<span>Like</span>
